@@ -30,6 +30,7 @@ nav li a{
     text-align: left;
 font-size: 45px;
 font-weight: 700;
+
 }
 .banner{
     display: flex;
@@ -60,7 +61,7 @@ font-size: 20px;
 font-weight: 600;
 text-transform: uppercase;
 display: inline-flex;
-padding: 21px 40px;
+padding: 30px 20px 30px 70px;
 gap: 10px;
 border-radius: 48px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -72,7 +73,7 @@ font-size: 20px;
 font-weight: 600;
 text-transform: uppercase;
 display: inline-flex;
-padding: 21px 40px;
+padding:  30px 20px 30px 60px;
 gap: 10px;
 border-radius: 48px;
 background: #4EC5F7;
@@ -133,8 +134,15 @@ margin-top: 20px;
 height: 400px;
 flex-shrink: 0;
 }
+.main-img:hover{
+    border: #FF42A5;
+    border-radius: 20px;
+    
+}
+
+
 main{
-height: 5927px;
+height: 2500px;
 }
 .play{
     display: flex;
@@ -142,13 +150,6 @@ height: 5927px;
     align-items: center;
     gap: 50px;
     padding: 0px 50px;
-   
-    
-    
-    
-}
-.play-content{
-   
 }
 .play-taitel{
 font-size: 48px;
@@ -170,24 +171,94 @@ line-height: 30px;
     left:  80px;
     top: 40px;
 }
+button{
+    display: flex;
+    border-color: #FFF;
+    width: 231px;
+    height: 80px;
+    border-radius: 50px;
+}
+button:hover{
+    color: #FF42A5;
+    background-color: rgb(197, 189, 189);
+}
 .sponser{
     display: flex;
  gap: 40px;
  margin: 30px;
  align-items: center;
+
+background: #FFF;
 }
 .sponser2{
     display: flex;
     gap: 70px;
  margin: 30px;
- align-items: center;
+ align-items:right;
+ padding-left: 50px;
 }
 .pp{
     color: #0B0223;
 font-size: 20px;
 font-weight: 600;
+}
+footer{
+    background-color: #232836;
+ padding-left: 600px;
+    padding: 70px;
+}
+span{
+    color: #FF42A5;
+}
+.foot-head{
+    display: flex;
+   align-items: center;
+padding: 2opx; padding-left: 650px;}
+   
+.foot-img{
+    width: 86.041px;
+height: 40px;
 
 }
+.foot-taitei{
+    color: aliceblue;
+    text-align: center;
+   font-size: 45px;
+   font-weight: 700;
+}
+.foot-des{
+   display: flex;
+   padding-left: 400px;
+  gap: 50px;}
+  .fppt-p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .icon{
+    padding-left: 650px;
+  }
+  .foot-end{
+    padding-left: 560px;
+  }
+ 
+  
+
+
+
+
+
+
+
+
+@media screen   and(max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+
 
 
 
